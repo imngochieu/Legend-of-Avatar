@@ -1,0 +1,209 @@
+body {
+  font-family: 'Overlock', cursive;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 0 10%;
+}
+
+/* Title */
+.navbar {
+  background-color: #e47120;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.brand-img {
+  padding: 0 0 0 20px;
+  height: 35px;
+  width: 90px;
+}
+
+.wall-img {
+  width: 100%;
+}
+
+.game-name {
+  background-color: #f5e7cd;
+  font-weight: 900;
+  font-size: 4rem;
+  font-style: italic;
+  margin: auto 0;
+  padding-top: 3%;
+}
+
+.fill {
+  background-color: #f5e7cd;
+  height: 40px;
+}
+
+/* Events */
+#events {
+  padding: 3%;
+  line-height: 2;
+}
+
+.single-event {
+  margin: 50px auto;
+}
+
+.icon {
+  width: 60px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+  border-radius: 10%;
+  border: solid;
+  border-width: thin;
+  background-color: #face8d;
+}
+
+/* Classes */
+.carousel-item {
+  background-color: #121212;
+}
+
+.water {
+  color: #44dbff;
+  line-height: 2;
+  text-align: left;
+  padding: 30% 15%;
+}
+
+.waterbender {
+  color: #2089a2;
+}
+
+.water-heading {
+  margin: 0 0 20px 50px;
+}
+
+.fire {
+  color: #e5600d;
+  line-height: 2;
+  text-align: left;
+  padding: 30% 15%;
+}
+
+.firebender {
+  color: #ac2b13;
+}
+
+.fire-heading {
+  margin: 0 0 20px 50px;
+}
+
+.air {
+  color: #6bb4e2;
+  line-height: 2;
+  text-align: left;
+  padding: 30% 15%;
+}
+
+.airbender {
+  color: #1477a7;
+}
+
+.air-heading {
+  margin: 0 0 20px 50px;
+}
+
+.earth {
+  color: #329d46;
+  line-height: 2;
+  text-align: left;
+  padding: 30% 15%;
+}
+
+.earthbender {
+  color: #0e742a;
+}
+
+.earth-heading {
+  margin: 0 0 20px 50px;
+}
+
+@media (max-width: 990px) {
+  .air {
+    padding: 35% 15%;
+  }
+
+  #classes h2 {
+    margin-left: 30px;
+  }
+}
+
+/* Download */
+#download {
+  line-height: 2;
+}
+
+.available {
+  font-weight: 700;
+  margin: 50px 0 10px;
+  padding: 3% 0;
+}
+
+.btn-bg {
+  background-color: #fff;
+  padding: 0 7%;
+}
+
+.btn-outline {
+  background-color: #e47120;
+  border-color: #e47120;
+  margin: 0 20px;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #e47120;
+}
+
+.card {
+  margin: 30px;
+}
+
+.card-header {
+  background-color: #face8d;
+}
+
+/* Footer */
+.container-footer {
+  background-color: #e47120;
+  line-height: 2;
+  padding: 50px 0;
+}
+
+.brand {
+  width: 20%;
+}
+
+.all-brands {
+  padding-bottom: 50px;
+}
+
+.social-icon {
+  margin: auto 30px;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+.copyright {
+  font-size: 1.05rem;
+  padding-top: 40px;
+}
